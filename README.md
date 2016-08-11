@@ -1,5 +1,5 @@
 # Caffeinate :coffee:
-> An electron app that keeps your machine awake
+> An [electron](http://electron.atom.io/) app that keeps your machine awake
 
   0. `nvm use`
   0. `npm install`
