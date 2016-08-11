@@ -1,7 +1,5 @@
 const { app, Tray } = require("electron");
-const { spawn } = require("child_process");
-const path = require("path");
-const terminate = require("terminate");
+const { exec, spawn } = require("child_process");
 
 let trayIcon,
     caffeinateProcess;
@@ -15,14 +13,9 @@ app.on("ready", () => {
     isActive = !isActive;
     if (isActive) {
       caffeinateProcess = spawn("caffeinate");
-      console.log("Started caffeinating...");
     } else {
-      terminate(caffeinateProcess.pid, () => {
-        console.log("Stopped caffeinating...");
-      });
+      caffeinateProcess.kill();
     }
     trayIcon.setImage(isActive ? `${__dirname}/images/CupActiveTemplate.png` : `${__dirname}/images/CupTemplate.png`);
   });
-
-  console.log("App is ready...");
 });
