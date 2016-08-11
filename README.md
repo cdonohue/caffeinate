@@ -1,2 +1,7 @@
-# caffeine
-An electron app that keeps your machine awake
+# Caffeine
+> An electron app that keeps your machine awake
+
+``` bash
+npm install
+npm start
+```
