@@ -1,4 +1,4 @@
-# Caffeine
+# Caffeinate :coffee:
 > An electron app that keeps your machine awake
 
   0. `nvm use`
