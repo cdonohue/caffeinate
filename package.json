@@ -1,0 +1,28 @@
+{
+  "name": "caffeine",
+  "version": "1.0.0",
+  "description": "An electron app that keeps your machine awake",
+  "main": "bootstrap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdonohue/caffeine.git"
+  },
+  "keywords": [],
+  "author": "Chad Donohue <chad.donohue@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cdonohue/caffeine/issues"
+  },
+  "homepage": "https://github.com/cdonohue/caffeine#readme",
+  "dependencies": {
+    "babel-core": "6.13.2",
+    "babel-preset-stage-1": "6.13.0",
+    "babel-register": "6.11.6",
+    "electron-prebuilt": "1.3.3",
+    "terminate": "1.0.8"
+  }
+}
