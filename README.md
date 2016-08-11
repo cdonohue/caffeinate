@@ -3,22 +3,20 @@
 
 This app is heavily inspired by [Caffeine](http://lightheadsw.com/caffeine/) and aims to provide close to the same experience _and_ support retina screens.
 
-Simply click the icon in your menu bar to caffeinate!
-
-###### Enabled
-![enabled](https://github.com/cdonohue/caffeinate/blob/master/screenshots/enabled.png)
-
-###### Disabled
-![disabled](https://github.com/cdonohue/caffeinate/blob/master/screenshots/disabled.png)
-
-#### What it does
+### What it does
 It simply prevents your Mac from going to sleep or activating the screensaver.
 
 Coming soon:
-  - Caffeinate for certain amounts of time
-  - Caffeinate while running specific programs
+  - [ ] Caffeinate for certain amounts of time
+  - [ ] Caffeinate while running specific programs
 
-#### Development
+Simply click the icon in your menu bar to caffeinate!
+
+| Enabled        | Disabled           |
+|:-------------:|:-------------:|
+| ![enabled](https://github.com/cdonohue/caffeinate/blob/master/screenshots/enabled.png "Enabled")      | ![disabled](https://github.com/cdonohue/caffeinate/blob/master/screenshots/disabled.png "Disabled") |
+
+### Development
 
   - `nvm use`
   - `npm install`
