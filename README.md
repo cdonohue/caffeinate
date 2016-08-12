@@ -8,7 +8,7 @@ This app is heavily inspired by [Caffeine](http://lightheadsw.com/caffeine/) and
 ### What it does
 It simply prevents your Mac from going to sleep or activating the screensaver.
 
-Coming soon:
+_Coming soon:_
   - [ ] Caffeinate for certain amounts of time
   - [ ] Caffeinate while running specific programs
 
