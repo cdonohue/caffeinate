@@ -18,6 +18,9 @@ Simply click the icon in your menu bar to caffeinate!
 |:-------------:|:-------------:|
 | ![enabled](https://github.com/cdonohue/caffeinate/blob/master/screenshots/enabled.png "Enabled")      | ![disabled](https://github.com/cdonohue/caffeinate/blob/master/screenshots/disabled.png "Disabled") |
 
+### Downloads
+[Caffeinate](https://github.com/cdonohue/caffeinate/releases) - OSX only at the moment
+
 ### Development
 
   - `nvm use`
