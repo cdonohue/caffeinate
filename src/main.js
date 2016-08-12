@@ -5,13 +5,13 @@ let trayIcon,
     caffeinateProcess;
 
 const spawnCaffeinateProcess = () => {
-  caffeinateProcess = spawn("caffeinate")
+  caffeinateProcess = spawn("caffeinate", ["-dims"]);
 };
 
 const killExistingCaffeinateProcess = () => {
   if (caffeinateProcess) {
     caffeinateProcess.kill();
-  }  
+  }
 }
 
 const getCurrentIcon = (isCaffeinating) => {
