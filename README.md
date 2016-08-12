@@ -1,5 +1,7 @@
-# Caffeinate :coffee:
+# Caffeinate :coffee: 
 > An [electron](http://electron.atom.io/) app that keeps your machine awake
+
+![Caffeinate](https://github.com/cdonohue/caffeinate/blob/master/icons/128x128.png)
 
 This app is heavily inspired by [Caffeine](http://lightheadsw.com/caffeine/) and aims to provide close to the same experience _and_ support retina screens.
 
